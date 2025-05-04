@@ -46,7 +46,7 @@ DesiredCapabilities capabilities = new DesiredCapabilities();
 		driver.findElement(By.id("com.google.android.dialer:id/five")).click();
 
 //		driver.findElement(By.id("com.google.android.dialer:id/dialpad_voice_call_button")).click();
-		
+			
 		
 		String number= driver.findElement(By.id("com.google.android.dialer:id/digits")).getText();		
 		
