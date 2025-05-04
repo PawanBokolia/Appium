@@ -29,6 +29,8 @@ public class APKInstall {
 		Thread.sleep(5000);
 		System.out.println("application is install");
 		
+
+		
 /*		//another options if capabilities are not working
  
 		 UiAutomator2Options options = new UiAutomator2Options();
