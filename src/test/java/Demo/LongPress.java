@@ -69,7 +69,7 @@ public class LongPress{
 		
 		Point location =el.getLocation();
 		
-		PointerInput finger = new PointerInput (PointerInput.Kind.TOUCH,"finger1");
+		PointerInput finger = new PointerInput (PointerInput.Kind.TOUCH,"finger");
 		
 		Sequence longPress = new Sequence (finger, 1);
 		longPress.addAction(finger.createPointerMove(Duration.ofMillis(0), PointerInput.Origin.viewport(), location.x, location.y));
