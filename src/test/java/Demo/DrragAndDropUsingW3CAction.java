@@ -34,7 +34,7 @@ public class DrragAndDropUsingW3CAction {
 		AndroidDriver driver = new AndroidDriver(url,capabilities);
 
 		Thread.sleep(2000);
-		System.out.println("application is install");
+		System.out.println("application is started");
 
 		WebElement viewbtn = driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"Views\"]"));
 		viewbtn.click();
@@ -87,7 +87,6 @@ public class DrragAndDropUsingW3CAction {
 		Thread.sleep(2000);
 
 		driver.quit();
-
 
 
 
